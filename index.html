@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="black-background"></div>
+    <div class="celebrating modal">
+        <div class="message gratz">Gratz, you are perfect!</div> 
+        <input type="button" value="Close" class="close button">
+    </div>
+    <div class="are-you-sure modal">
+        <div class="message question">You still have time, you sure?</div>
+        <div class="small-timer">
+            <div class="minute">00</div>:<div class="second">00</div>
+        </div>
+        <input type="button" value="Close" class="closest button">
+        <input type="button" value="Check" class="check button">
+    </div>
+    <div class="pity modal">
+        <p class="message">It's a pity, but you lost</p>
+        <input type="button" value="Close" class="close button">
+    </div>
+
+    <div class="timer">
+        <div class="minutes">01</div>:<div class="seconds">00</div>
+    </div>
+
+    <div class="buttons-div">
+        <input type="button" value="Start Game!" class="buttons start">
+        <input type="button" value="Check result" class="buttons result">
+        <input type="button" value="New Game" class="buttons new">
+    </div>
+
+    <div class="two-boxes">
+        <div class="start-box box" id="start">
+            <div class="puzzle">
+                <p class="numbers">3</p> <img src="images/image_part_003.jpg" alt="">
+            </div>
+            <div class="puzzle">
+                <p class="numbers">2</p> <img src="images/image_part_002.jpg" alt="">
+            </div>
+            <div class="puzzle">
+                <p class="numbers">9</p> <img src="images/image_part_009.jpg" alt="">
+            </div>
+            <div class="puzzle">
+                <p class="numbers">8</p> <img src="images/image_part_008.jpg" alt="">
+            </div>
+            <div class="puzzle">
+                <p class="numbers">5</p> <img src="images/image_part_005.jpg" alt="">
+            </div>
+            <div class="puzzle">
+                <p class="numbers">7</p> <img src="images/image_part_007.jpg" alt="">
+            </div>
+            <div class="puzzle">
+                <p class="numbers">6</p> <img src="images/image_part_006.jpg" alt="">
+            </div>
+            <div class="puzzle">
+                <p class="numbers">4</p> <img src="images/image_part_004.jpg" alt="">
+            </div>
+            <div class="puzzle">
+                <p class="numbers">1</p> <img src="images/image_part_001.jpg" alt="">
+            </div>
+        </div>
+        <div class="final-box box" id="end">
+
+        </div>
+    </div>
+
+    <script src="script/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

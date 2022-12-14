@@ -1,0 +1,161 @@
+@import url(reset.css);
+
+body{
+    font-family: monospace;
+}
+
+.timer{
+    height: 200px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.buttons{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 0px;
+    width: 130px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    height: 40px;
+}
+
+.buttons-div{
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-boxes{
+    width: 950px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.box{
+    float: left;
+    display: block;
+    width: 450px;
+    height: 450px;
+    box-shadow: 0px 0px 10px 5px black;
+
+}
+
+.start-box{
+    margin-right: 50px;
+}
+
+.black-background{
+    display: none;
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+.modal{
+    display: none;
+    z-index: 100;
+    position: absolute;
+    top: 20px;
+    left: calc(47% - 200px);
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.modalan{
+    display: block;
+    z-index: 100;
+    position: absolute;
+    top: 20px;
+    left: calc(47% - 200px);
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.message{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{    
+    font-size: 15px;
+    font-weight: bolder;
+    border: 0px;
+    width: 70px;
+    height: 50px;
+    margin-left: 210px;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.check{
+    background-color: green;
+    margin: 0px;
+}
+
+.closest{
+    background-color: red;
+    margin-left: 180px;
+}
+
+.close{
+    background-color: red;
+}
+
+.puzzle{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+img{
+    z-index: 99;
+    width: 150px;
+    height: 150px;
+}
+
+.numbers{
+    width: 0;
+    height: 0;
+}
+
+.question{
+    width: calc(100% - 100px);
+    float: left;
+}
+
+.small-timer{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
